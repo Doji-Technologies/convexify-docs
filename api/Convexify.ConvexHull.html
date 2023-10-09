@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Struct ConvexHull
+ </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Struct ConvexHull
+ ">
+    
+      <link rel="shortcut icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="https://www.doji-tech.com/">
+                <img id="logo" class="svg" src="../images/doji.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Convexify.ConvexHull">
+
+
+
+  <h1 id="Convexify_ConvexHull" data-uid="Convexify.ConvexHull" class="text-break">Struct ConvexHull
+</h1>
+  <div class="markdown level0 summary"><p>A simple class that represents a convex hull as a triangle mesh.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Convexify.html">Convexify</a></h6>
+  <h6><strong>Assembly</strong>: Doji.Convexify.dll</h6>
+  <h5 id="Convexify_ConvexHull_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct ConvexHull</code></pre>
+  </div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull_Center.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull.Center%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L30">View Source</a>
+  </span>
+  <a id="Convexify_ConvexHull_Center_" data-uid="Convexify.ConvexHull.Center*"></a>
+  <h4 id="Convexify_ConvexHull_Center" data-uid="Convexify.ConvexHull.Center">Center</h4>
+  <div class="markdown level1 summary"><p>The centroid of the convex hull</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector3 Center { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull_Indices.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull.Indices%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L20">View Source</a>
+  </span>
+  <a id="Convexify_ConvexHull_Indices_" data-uid="Convexify.ConvexHull.Indices*"></a>
+  <h4 id="Convexify_ConvexHull_Indices" data-uid="Convexify.ConvexHull.Indices">Indices</h4>
+  <div class="markdown level1 summary"><p>The indices of the mesh forming the convex hull.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly List&lt;int&gt; Indices { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull_MaxBounds.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull.MaxBounds%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L39">View Source</a>
+  </span>
+  <a id="Convexify_ConvexHull_MaxBounds_" data-uid="Convexify.ConvexHull.MaxBounds*"></a>
+  <h4 id="Convexify_ConvexHull_MaxBounds" data-uid="Convexify.ConvexHull.MaxBounds">MaxBounds</h4>
+  <div class="markdown level1 summary"><p>Bounding box maximum of the AABB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector3 MaxBounds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull_MinBounds.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull.MinBounds%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L35">View Source</a>
+  </span>
+  <a id="Convexify_ConvexHull_MinBounds_" data-uid="Convexify.ConvexHull.MinBounds*"></a>
+  <h4 id="Convexify_ConvexHull_MinBounds" data-uid="Convexify.ConvexHull.MinBounds">MinBounds</h4>
+  <div class="markdown level1 summary"><p>Bounding box minimum of the AABB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector3 MinBounds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull_Points.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull.Points%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L15">View Source</a>
+  </span>
+  <a id="Convexify_ConvexHull_Points_" data-uid="Convexify.ConvexHull.Points*"></a>
+  <h4 id="Convexify_ConvexHull_Points" data-uid="Convexify.ConvexHull.Points">Points</h4>
+  <div class="markdown level1 summary"><p>The vertices of the mesh forming the convex hull.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly List&lt;Vector3&gt; Points { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull_Volume.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull.Volume%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L25">View Source</a>
+  </span>
+  <a id="Convexify_ConvexHull_Volume_" data-uid="Convexify.ConvexHull.Volume*"></a>
+  <h4 id="Convexify_ConvexHull_Volume" data-uid="Convexify.ConvexHull.Volume">Volume</h4>
+  <div class="markdown level1 summary"><p>The volume of the convex hull</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly double Volume { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull_ToString.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull.ToString%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L46">View Source</a>
+  </span>
+  <a id="Convexify_ConvexHull_ToString_" data-uid="Convexify.ConvexHull.ToString*"></a>
+  <h4 id="Convexify_ConvexHull_ToString" data-uid="Convexify.ConvexHull.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a></div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Convexify.ConvexHullExtensions.html#Convexify_ConvexHullExtensions_GenerateCollider_Convexify_ConvexHull_System_String_">ConvexHullExtensions.GenerateCollider(ConvexHull, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="Convexify.ConvexHullExtensions.html#Convexify_ConvexHullExtensions_GenerateMesh_Convexify_ConvexHull_System_String_">ConvexHullExtensions.GenerateMesh(ConvexHull, string)</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Doji-Technologies/vhacd-unity/new/master/apiSpec/new?filename=Convexify_ConvexHull.md&amp;value=---%0Auid%3A%20Convexify.ConvexHull%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Doji-Technologies/vhacd-unity/blob/master/Packages/com.doji.convexify/Runtime/VHACD/ConvexHull.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
